@@ -87,3 +87,5 @@ You can destroy the click tracker event listener by calling `destroy()` method.
 ## Frameworks independent
 
 This script is a Vanilla JS (written in TypeScript) and executes independently of any frameworks.
+
+[Checkout integration with Angular example](./demo/ng15/README.md)
