@@ -35,22 +35,24 @@ Add specific attributes on element you want to track
 
 ```html
 
-<element
+<a
   data-mtm-click
   data-mtm-category="my-click-category"
   data-mtm-action="click-on-link"
   data-mtm-name="link-with-tracking"
   data-mtm-value="1"
-></element>
+  href="#"
+></a>
 ```
 
 or
 
 ```html
 <!-- order is important: "category, action, name, value" -->
-<element
+<a
   data-mtm-click="my-click-category, click-on-link, link-with-tracking, 1"
-></element>
+  href="#"
+></a>
 ```
 
 ## Non-auto init script + debug
