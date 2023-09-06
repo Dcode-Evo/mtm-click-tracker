@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ES5",
+    "module": "ES6",
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "bundler",
+    "lib": [
+      "DOM",
+      "ES2015"
+    ]
+  },
+  "files": [
+    "src/mtm-click-tracker.ts",
+    "src/mtm-ct-auto.ts"
+  ],
+  "include": [
+    "**/*.d.ts"
+  ]
+}
