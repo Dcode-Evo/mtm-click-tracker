@@ -47,7 +47,7 @@ Add specific attributes on element you want to track
 or
 
 ```html
-
+<!-- order is important: "category, action, name, value" -->
 <element
   data-mtm-click="my-click-category, click-on-link, link-with-tracking, 1"
 ></element>
