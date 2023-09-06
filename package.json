@@ -4,7 +4,12 @@
   "description": "Matomo click event tracker",
   "scripts": {
     "start": "webpack serve",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "demo": "npm run build && http-server ./ -o ./demo/html --port 3000",
+    "demo-ng": "http-server ./demo/ng15/dist/ng15 -o --port 3300",
+    "postinstall": "npm run prepare-demo && npm run prepare-ng-demo",
+    "prepare-demo": "npm run build && npm pack && mv dcode-evo-mtm-click-tracker-*.tgz ./demo/ng15/dcode-evo-mtm-click-tracker-latest.tgz",
+    "prepare-ng-demo": "cd demo/ng15 && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
