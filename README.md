@@ -42,7 +42,7 @@ Add specific attributes on element you want to track
   data-mtm-name="link-with-tracking"
   data-mtm-value="1"
   href="#"
-></a>
+>Click me</a>
 ```
 
 or
@@ -52,7 +52,7 @@ or
 <a
   data-mtm-click="my-click-category, click-on-link, link-with-tracking, 1"
   href="#"
-></a>
+>Click me</a>
 ```
 
 ## Non-auto init script + debug
